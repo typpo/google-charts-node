@@ -1,0 +1,19 @@
+{
+  "name": "google-charts-node",
+  "version": "1.0.0",
+  "description": "Headless image renderer for Google Charts",
+  "main": "index.js",
+  "author": "Ian Webster",
+  "license": "GPL-3.0",
+  "scripts": {
+    "format": "prettier --single-quote --trailing-comma all --print-width 100 --write \"**/*.js\""
+  },
+  "dependencies": {
+    "puppeteer": "^4.0.0"
+  },
+  "devDependencies": {
+    "@arkweid/lefthook": "^0.6.3",
+    "express": "^4.17.1",
+    "prettier": "^1.18.2"
+  }
+}
