@@ -4,7 +4,7 @@ google-charts-node
 
 This package allows you to render Google Charts on the server as PNG images.
 
-This is made possible through the use of puppeteer, a headless Chromium browser.
+It is based on the [Google Visualization API](https://developers.google.com/chart/interactive/docs/reference) and is made possible through the use of [puppeteer](https://github.com/puppeteer/puppeteer), which uses the Chromium browser for "headless" rendering.
 
 ## Installation
 
