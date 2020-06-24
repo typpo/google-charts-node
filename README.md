@@ -1,9 +1,18 @@
 google-charts-node
 ---
+[![npm](https://img.shields.io/npm/v/google-charts-node)](https://www.npmjs.com/package/google-charts-node)
 
 This package allows you to render Google Charts on the server as PNG images.
 
 This is made possible through the use of puppeteer, a headless Chromium browser.
+
+## Installation
+
+This project is [available on NPM](https://www.npmjs.com/package/google-charts-node).
+
+```
+npm install google-charts-node
+```
 
 ## Example
 
