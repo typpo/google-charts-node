@@ -9,6 +9,9 @@ async function renderGoogleChartHttp(req, res) {
   const packages = data.packages ? data.packages.split(',') : ['corechart'];
   const opts = {
     packages,
+    width: data.width,
+    height: data.height,
+    mapsApiKey: data.mapsApiKey,
   };
   try {
     const buf = await renderGoogleChart(data.code, opts);
