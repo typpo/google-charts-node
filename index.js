@@ -6,14 +6,14 @@ async function renderGoogleChartHttp(req, res) {
     data = req.body;
   }
 
-  const packages = data.packages ? data.packages.split(',') : ['corechart'];
-  const opts = {
-    packages,
-    width: data.width,
-    height: data.height,
-    mapsApiKey: data.mapsApiKey,
-  };
   try {
+    const packages = data.packages ? data.packages.split(',') : ['corechart'];
+    const opts = {
+      packages,
+      width: data.width,
+      height: data.height,
+      mapsApiKey: data.mapsApiKey,
+    };
     const buf = await renderGoogleChart(data.code, opts);
     res.type('image/png').send(buf);
   } catch (err) {
