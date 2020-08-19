@@ -6,6 +6,8 @@ This package allows you to render Google Charts on the server as PNG images.
 
 It is based on the [Google Visualization API](https://developers.google.com/chart/interactive/docs/reference) and is made possible through the use of [puppeteer](https://github.com/puppeteer/puppeteer), which uses the Chromium browser for "headless" rendering.
 
+For a more detailed walkthrough, see [Server-side image rendering for Google Charts](https://quickchart.io/documentation/google-charts-image-server/) on QuickChart.
+
 ## Installation
 
 This project is [available on NPM](https://www.npmjs.com/package/google-charts-node).
