@@ -2,7 +2,7 @@ google-charts-node
 ---
 [![npm](https://img.shields.io/npm/v/google-charts-node)](https://www.npmjs.com/package/google-charts-node)
 
-This package allows you to render Google Charts on the server as PNG images.
+This package allows you to render Google Charts on the server as PNG images.  It's part of [QuickChart](https://quickchart.io), which offers a suite of tools for rendering charts & graphs as images.
 
 It is based on the [Google Visualization API](https://developers.google.com/chart/interactive/docs/reference) and is made possible through the use of [puppeteer](https://github.com/puppeteer/puppeteer), which uses the Chromium browser for "headless" rendering.
 
