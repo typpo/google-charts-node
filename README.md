@@ -63,6 +63,37 @@ The only requirements of your `drawChart` function are that you must:
 - Define a `chart` variable or return your chart.
 - Use the provided `container` variable to render your chart.
 
+### Example with arguments
+
+To use outside values in your drawChart function, call `render` with a Javascript string.  Here's an example:
+
+```js
+const myArg = 12345;
+const myOtherArg = [5, 10, 15, 20];
+const drawChartStr = `
+  // Create the data table.
+  var data = new google.visualization.DataTable();
+  data.addColumn('string', 'Topping');
+  data.addColumn('number', 'Slices');
+  data.addRows([
+    ['Mushrooms', ${myArg}],
+    ['Onions', ${myOtherArg[0]}],
+    ['Olives', ${myOtherArg[1]}],
+    ['Zucchini', ${myOtherArg[2]}],
+    ['Pepperoni', ${myOtherArg[3]}],
+  ]);
+  // Set chart options
+  var options = { title: 'How Much Pizza I Ate Last Night' };
+  // Instantiate and draw our chart, passing in some options.
+  var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+  chart.draw(data, options);
+`;
+const image = await GoogleChartsNode.render(drawChartStr, {
+  width: 400,
+  height: 300,
+});
+```
+
 ## Usage
 
 ### render(drawChartFunction, options) -> Buffer
