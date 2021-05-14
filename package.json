@@ -1,6 +1,6 @@
 {
   "name": "google-charts-node",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Headless image renderer for Google Charts",
   "main": "index.js",
   "author": "Ian Webster",
