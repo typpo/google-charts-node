@@ -3,7 +3,7 @@ const fs = require('fs');
 const GoogleChartsNode = require('../index');
 
 (async () => {
-  const image = await GoogleChartsNode.render(drawChart, {
+  const image = await GoogleChartsNode.render(myChart, {
     width: 400,
     height: 300,
   });
@@ -11,7 +11,7 @@ const GoogleChartsNode = require('../index');
   fs.writeFileSync('/tmp/google-chart.png', image);
 })();
 
-function drawChart() {
+function myChart() {
   var data = google.visualization.arrayToDataTable([
     ['City', '2010 Population'],
     ['New York City, NY', 8175000],
