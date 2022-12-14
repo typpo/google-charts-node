@@ -107,6 +107,7 @@ The library exposes a single function, render.
 - **height**: Height of chart canvas (default `100%`)
 - **packages**: Array of Google Charts packages to import (default `['corechart']`)
 - **mapsApiKey**: Google Maps API key (used only for geochart and map charts)
+- **puppeteerOptions**: Options passed to [puppeteer.launch](https://pptr.dev/api/puppeteer.launchoptions)
 
 ## More examples
 
