@@ -8,13 +8,15 @@ It is based on the [Google Visualization API](https://developers.google.com/char
 
 For a more detailed walkthrough, see [Server-side image rendering for Google Charts](https://quickchart.io/documentation/google-charts-image-server/) on QuickChart.
 
-## Installation
+## Setup
 
 This project is [available on NPM](https://www.npmjs.com/package/google-charts-node).
 
 ```
 npm install google-charts-node
 ```
+
+You may instead prefer to use the hosted version available at https://quickchart.io/google-charts/render ([see docs](https://quickchart.io/documentation/google-charts-image-server/#using-the-api)).
 
 ## Example
 
