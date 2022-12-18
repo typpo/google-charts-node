@@ -4,7 +4,7 @@
   "description": "Headless image renderer for Google Charts",
   "main": "index.js",
   "author": "Ian Webster",
-  "license": "GPL-3.0",
+  "license": "AGPL-3.0",
   "homepage": "https://quickchart.io/",
   "repository": {
     "type": "git",
