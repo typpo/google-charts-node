@@ -14,11 +14,11 @@
     "format": "prettier --single-quote --trailing-comma all --print-width 100 --write \"**/*.js\""
   },
   "dependencies": {
-    "puppeteer": "^19.7.5"
+    "puppeteer": "^23.10.1"
   },
   "devDependencies": {
     "@arkweid/lefthook": "^0.6.3",
-    "express": "^4.17.1",
+    "express": "^4.21.2",
     "prettier": "^1.18.2"
   }
 }
