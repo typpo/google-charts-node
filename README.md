@@ -8,6 +8,11 @@ It is based on the [Google Visualization API](https://developers.google.com/char
 
 For a more detailed walkthrough, see [Server-side image rendering for Google Charts](https://quickchart.io/documentation/google-charts-image-server/) on QuickChart.
 
+
+## Upgrade Notes
+
+If your application passes Puppeteer options you pass to `render` method, make sure they are compatible with [Puppeteer 23.10.1](https://github.com/puppeteer/puppeteer/tree/puppeteer-v23.10.1).
+
 ## Setup
 
 This project is [available on NPM](https://www.npmjs.com/package/google-charts-node).
